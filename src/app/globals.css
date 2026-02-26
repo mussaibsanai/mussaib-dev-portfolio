@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body antialiased;
+  }
+
+  ::selection {
+    @apply bg-primary-500 text-white;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-500 via-purple-500 to-pink-500;
+    background-size: 200% 200%;
+    animation: gradientShift 4s ease infinite;
+  }
+
+  .section-label {
+    @apply text-xs font-semibold text-primary-500 uppercase tracking-[0.15em] mb-3;
+  }
+
+  .section-title {
+    @apply font-display text-4xl md:text-[42px] font-extrabold tracking-tight;
+  }
+
+  .card {
+    @apply bg-white dark:bg-dark-900 rounded-2xl border border-dark-200 dark:border-dark-800 transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:-translate-y-1 hover:shadow-lg hover:shadow-primary-500/5 dark:hover:shadow-primary-500/10;
+  }
+
+  .tag {
+    @apply bg-primary-50 dark:bg-dark-800 text-primary-600 dark:text-primary-300 text-[11px] font-semibold px-2.5 py-1 rounded-md font-mono;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-purple-600 text-white px-8 py-3.5 rounded-xl font-semibold text-[15px] shadow-lg shadow-primary-500/25 hover:shadow-xl hover:shadow-primary-500/30 transition-all duration-300 hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-dark-200 dark:border-dark-700 text-dark-900 dark:text-white px-8 py-3.5 rounded-xl font-semibold text-[15px] hover:border-primary-500 hover:text-primary-500 transition-all duration-300;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3.5 rounded-xl bg-dark-50 dark:bg-dark-950 border border-dark-200 dark:border-dark-800 text-dark-900 dark:text-white font-body text-[15px] outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500/20 transition-all duration-200 placeholder:text-dark-400;
+  }
+}
+
+@layer utilities {
+  .animation-delay-100 {
+    animation-delay: 0.1s;
+  }
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+  .animation-delay-300 {
+    animation-delay: 0.3s;
+  }
+  .animation-delay-400 {
+    animation-delay: 0.4s;
+  }
+}
+
+/* Blog prose styling */
+.prose-custom {
+  @apply text-dark-600 dark:text-dark-300 leading-relaxed;
+}
+
+.prose-custom h1 {
+  @apply font-display text-3xl font-extrabold text-dark-900 dark:text-white mt-10 mb-4;
+}
+
+.prose-custom h2 {
+  @apply font-display text-2xl font-bold text-dark-900 dark:text-white mt-8 mb-3;
+}
+
+.prose-custom h3 {
+  @apply font-display text-xl font-bold text-dark-900 dark:text-white mt-6 mb-2;
+}
+
+.prose-custom p {
+  @apply mb-4 text-base leading-7;
+}
+
+.prose-custom a {
+  @apply text-primary-500 underline underline-offset-2 hover:text-primary-400 transition-colors;
+}
+
+.prose-custom code {
+  @apply font-mono text-sm bg-dark-100 dark:bg-dark-800 px-1.5 py-0.5 rounded text-primary-600 dark:text-primary-300;
+}
+
+.prose-custom pre {
+  @apply bg-dark-900 dark:bg-dark-950 rounded-xl p-5 overflow-x-auto my-6 border border-dark-800;
+}
+
+.prose-custom pre code {
+  @apply bg-transparent px-0 py-0 text-dark-200;
+}
+
+.prose-custom ul {
+  @apply list-disc pl-6 mb-4 space-y-1;
+}
+
+.prose-custom ol {
+  @apply list-decimal pl-6 mb-4 space-y-1;
+}
+
+.prose-custom blockquote {
+  @apply border-l-4 border-primary-500 pl-4 italic text-dark-500 dark:text-dark-400 my-4;
+}
+
+.prose-custom img {
+  @apply rounded-xl my-6;
+}

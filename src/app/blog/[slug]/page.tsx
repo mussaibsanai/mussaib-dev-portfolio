@@ -69,7 +69,7 @@ function markdownToHtml(markdown: string): string {
     .replace(/^(?!<[h|p|u|o|l|b|pre|img|li])/gm, "");
 
   // Wrap loose li elements
-  html = html.replace(/(<li>.*<\/li>)/gs, "<ul>$1</ul>");
+  html = html.replace(/(<li>[\s\S]*?<\/li>)+/g, "<ul>$&</ul>");
   // Clean up double ul wrapping
   html = html.replace(/<\/ul>\s*<ul>/g, "");
 

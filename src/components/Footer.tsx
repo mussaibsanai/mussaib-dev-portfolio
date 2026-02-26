@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="border-t border-dark-200 dark:border-dark-800 py-8 px-6">
       <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-[13px] text-dark-500">
-          © {new Date().getFullYear()} Mussaib Rasheed. Built with Next.js &amp;
+          © {new Date().getFullYear()} Mussaib Rasheed.
           shipped fast.
         </p>
 
@@ -28,14 +28,14 @@ export function Footer() {
           >
             <Linkedin size={18} />
           </a>
-          <a
+          {/* <a
             href={siteConfig.links.upwork}
             target="_blank"
             rel="noopener noreferrer"
             className="text-dark-500 hover:text-primary-500 transition-colors flex items-center gap-1 text-[13px] font-medium"
           >
             Upwork <ArrowUpRight size={14} />
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>

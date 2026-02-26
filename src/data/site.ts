@@ -7,9 +7,9 @@ export const siteConfig = {
   ogImage: "/images/og-image.png",
   links: {
     upwork: "#", // Add your Upwork profile URL
-    github: "#", // Add your GitHub URL
-    linkedin: "#", // Add your LinkedIn URL
-    email: "hello@mussaibrasheed.com", // Add your email
+    github: "https://github.com/mussaibsanai", // Add your GitHub URL
+    linkedin: "https://www.linkedin.com/in/mussaib-rasheed/", // Add your LinkedIn URL
+    email: "mussaibsanai@gmail.com", // Add your email
   },
 };
 

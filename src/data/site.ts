@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Mussaib Rasheed — Full-Stack & Mobile Developer",
   description:
     "Full-Stack & Mobile Developer with 5+ years building production apps. React, Next.js, React Native, Flutter, Node.js. I ship fast and build products that make money.",
-  url: "https://mussaibrasheed.com",
+  url: "https://mussaib-dev.vercel.app",
   ogImage: "/images/og-image.png",
   links: {
     upwork: "#", // Add your Upwork profile URL

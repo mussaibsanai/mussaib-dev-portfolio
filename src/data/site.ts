@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Mussaib Rasheed",
-  title: "Mussaib Rasheed — Full-Stack & Mobile Developer",
+  title: "Mussaib Rasheed — Mobile App Developer",
   description:
-    "Full-Stack & Mobile Developer with 5+ years building production apps. React, Next.js, React Native, Flutter, Node.js. I ship fast and build products that make money.",
+    "Mobile Developer with 5+ years building production apps. React, Next.js, React Native, Flutter, IOS. I ship fast and build products that make money.",
   url: "https://mussaib-dev.vercel.app",
   ogImage: "/images/og-image.png",
   links: {
@@ -21,7 +21,7 @@ export const projects = [
       "The BuyHouseEZ Home Financing Platform Project represents a transformative step toward financial inclusivity in the real estate sector. With a focus on empowering individuals often excluded from traditional lending channels—such as those with limited credit history or ITINs—this initiative brings together private lending solutions and innovative property technology to create new paths to homeownership.",
     longDescription:
       "The BuyHouseEZ Home Financing Platform Project represents a transformative step toward financial inclusivity in the real estate sector. With a focus on empowering individuals often excluded from traditional lending channels—such as those with limited credit history or ITINs—this initiative brings together private lending solutions and innovative property technology to create new paths to homeownership. Through a blend of financial flexibility, automation, and user-centric design, we helped BuyHouseEZ build a platform that simplifies and accelerates the loan application process while maintaining regulatory compliance and personalized support. The platform ensures that more families and individuals can move from renting to owning—regardless of background or financial barriers.",
-    stack: ["React Native","Next.js", "React", "Recharts", "Tailwind CSS", "ZOHO CRM", "Node.js"],
+    stack: ["React Native","Next.js", "React", "Recharts", "Tailwind CSS",],
     type: "Web App & Mobile App",
     status: "Company Project",
     color: "#219536",
@@ -45,7 +45,7 @@ export const projects = [
       "The Pleromi Payments Platform is a next-generation financial infrastructure solution designed to empower businesses with seamless, secure, and scalable payment processing capabilities. Built with modern technologies and a focus on user experience, Pleromi enables businesses to accept payments globally with minimal friction.",
     longDescription:
       "The Pleromi Payments Platform is a next-generation financial infrastructure solution designed to empower businesses with seamless, secure, and scalable payment processing capabilities. Built with modern technologies and a focus on user experience, Pleromi enables businesses to accept payments globally with minimal friction. The platform integrates advanced fraud detection systems, multi-currency support, and real-time analytics to provide businesses with the tools they need to thrive in the digital economy.",
-    stack: ["React Native","Next.js", "React", "Recharts", "Tailwind CSS", "ASP.NET Core", "SQL Server"],
+    stack: ["React Native","Next.js", "React", "Recharts", "Tailwind CSS",],
     type: "Web App & Mobile App",
     status: "Company Project",
     color: "#3B82F6",
@@ -69,8 +69,8 @@ export const projects = [
       "Wellmoe is a private-label, high-tech hospitality solution designed to enhance and streamline the guest experience. By providing seamless access to a wide range of hotel services through intuitive digital interfaces, Wellmoe empowers guests to manage their stay with ease and convenience. Guests can effortlessly scan QR codes or utilize in-room tablets to access services. Once a request is made, it is transmitted directly to the service provider, who fulfills the request and sends a receipt to the guest's personal email. This integration ensures a smooth and efficient service delivery, enhancing overall guest satisfaction.",
     longDescription:
       "The Wellmoe Platform is a next-generation hospitality solution designed to enhance guest experiences through seamless, personalized services. Built with modern technologies and a focus on user experience, Wellmoe enables hotels and resorts to deliver tailored services that meet the evolving needs of their guests. The platform integrates advanced AI-driven personalization engines, real-time communication tools, and intuitive booking systems to provide guests with an unparalleled level of convenience and comfort.",
-    stack: ["Strapi CMS","Next.js", "React Native", "PostgreSQL", "Tailwind CSS", "Node.js"],
-    type: "Full-Stack Web App & Mobile App",
+    stack: ["Flutter", "Next.js",  "Tailwind CSS"],
+    type: "Web App & Mobile App",
     status: "Company Project",
     color: "#3B82F6",
     image: "/images/7.png",
@@ -93,8 +93,8 @@ export const projects = [
       `The "Rental Insight Lab Property Intelligence Platform" redefines how real estate professionals discover high-return investment properties. Designed specifically for agents and brokers, Rental Insight Lab offers a precision-focused research tool that streamlines the property search process—enabling users to uncover investment opportunities in seconds, not days.`,
     longDescription:
       "The Rental Insight Lab Property Intelligence Platform is a next-generation real estate research tool designed to help agents and brokers quickly identify high-return investment properties. Built with modern technologies and a focus on precision, Rental Insight Lab enables users to uncover investment opportunities in seconds, not days. The platform integrates advanced data analytics, property intelligence engines, and intuitive search tools to provide real estate professionals with an unparalleled level of insight and convenience.",
-    stack: ["Next.js", "Supabase", "PostgreSQL", "Stripe", "Deno", "Tailwind CSS"],
-    type: "Full-Stack Web App",
+    stack: ["Next.js", "Supabase", "Stripe", "Tailwind CSS"],
+    type: "Web App",
     status: "Company Project",
     color: "#3B82F6",
     image: "/images/9.png",
@@ -141,7 +141,7 @@ export const projects = [
       `InstaKin helps people living abroad take care of their loved ones back home. You can send any special request like groceries, medicines, gifts, bill payments, or personal errands and our local team will arrange and deliver it safely. We also provide secure money transfers, so you can send funds with confidence. Every payment is protected and tracked, giving you peace of mind that your family receives support on time and without risk.`,
     longDescription:
       "InstaKin helps people living abroad take care of their loved ones back home. You can send any special request ike groceries, medicines, gifts, bill payments, or personal errands and our local team will arrange and deliver it safely. We also provide secure money transfers, so you can send funds with confidence. Every payment is protected and tracked, giving you peace of mind that your family receives support on time and without risk.",
-    stack: ["React Native", "ReactJs", "Firebase", "Node.js", "MongoDB"],
+    stack: ["React Native", "ReactJs", "Firebase", "Redux"],
     type: "Mobile App",
     status: "Company Project",
     color: "#269786",
@@ -259,64 +259,68 @@ export const projects = [
 ];
 
 export const services = [
+   {
+    icon: "Smartphone",
+    title: "Mobile App Development",
+    description: "React Native. Flutter. Native iOS. I build mobile apps that run on every platform and feel like they belong there. Cross platform when it saves time, fully native when the project demands it.",
+    techs: ["React Native", "Flutter", "IOS"],
+  },
   {
     icon: "Globe",
     title: "Web Development",
-    description: "Modern web apps with React & Next.js — fast, SEO-friendly, and built to convert.",
-    techs: ["React.js", "Next.js", "TypeScript"],
+    description: "Modern web apps with React & Next.js fast, SEO-friendly, and built to convert.",
+    techs: ["React.js", "Next.js", "TypeScript", "JavaScript"],
   },
-  {
-    icon: "Smartphone",
-    title: "Mobile Development",
-    description: "Cross-platform apps that feel native. One codebase, both platforms, no compromise.",
-    techs: ["React Native", "Flutter"],
-  },
-  {
-    icon: "Server",
-    title: "Backend & APIs",
-    description: "Scalable server architecture with clean APIs, proper auth, and database design that grows with you.",
-    techs: ["Node.js", "Express", "Fastify"],
-  },
-  {
-    icon: "Database",
-    title: "Database Design",
-    description: "Schema design, migrations, and optimization. Your data layer done right from day one.",
-    techs: ["PostgreSQL", "MongoDB"],
-  },
+ 
+  // {
+  //   icon: "Server",
+  //   title: "Backend & APIs",
+  //   description: "Scalable server architecture with clean APIs, proper auth, and database design that grows with you.",
+  //   techs: ["Node.js", "Express", "Fastify"],
+  // },
+  // {
+  //   icon: "Database",
+  //   title: "Database Design",
+  //   description: "Schema design, migrations, and optimization. Your data layer done right from day one.",
+  //   techs: ["PostgreSQL", "MongoDB"],
+  // },
   {
     icon: "Rocket",
     title: "MVP Development",
     description: "From idea to launched product in weeks. I build MVPs that validate fast and scale when you're ready.",
     techs: ["Full Stack", "End to End"],
   },
-  {
-    icon: "Wrench",
-    title: "Code Rescue",
-    description: "Inherited a messy codebase? I audit, fix, and optimize existing projects so they actually work.",
-    techs: ["Refactoring", "Bug Fixes"],
-  },
+  // {
+  //   icon: "Wrench",
+  //   title: "Code Rescue",
+  //   description: "Inherited a messy codebase? I audit, fix, and optimize existing projects so they actually work.",
+  //   techs: ["Refactoring", "Bug Fixes"],
+  // },
 ];
 
 export const techStack = {
+  Mobile: [
+    { name: "React Native", level: 95 },
+    { name: "Flutter", level: 90 },
+    { name: "IOS", level: 90 },
+    { name: "Android", level: 50 }, 
+  ],
   Frontend: [
     { name: "React.js", level: 95 },
     { name: "Next.js", level: 92 },
     { name: "TypeScript", level: 88 },
     { name: "Tailwind CSS", level: 90 },
   ],
-  Mobile: [
-    { name: "React Native", level: 90 },
-    { name: "Flutter", level: 85 },
-  ],
-  Backend: [
-    { name: "Node.js", level: 93 },
-    { name: "Express.js", level: 92 },
-    { name: "Fastify", level: 88 },
-  ],
-  Database: [
-    { name: "PostgreSQL", level: 90 },
-    { name: "MongoDB", level: 88 },
-  ],
+  
+  // Backend: [
+  //   { name: "Node.js", level: 93 },
+  //   { name: "Express.js", level: 92 },
+  //   { name: "Fastify", level: 88 },
+  // ],
+  // Database: [
+  //   { name: "PostgreSQL", level: 90 },
+  //   { name: "MongoDB", level: 88 },
+  // ],
 };
 
 export const testimonials = [

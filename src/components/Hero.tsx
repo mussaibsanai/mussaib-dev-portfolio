@@ -51,16 +51,18 @@ export function Hero() {
               </h1>
 
               <p className="text-xl font-medium text-dark-500 dark:text-dark-400 mb-3 animate-fade-up animation-delay-200">
-                Full-Stack &amp; Mobile Developer
+                Mobile App Developer &amp; AI Product Builder
               </p>
 
               <p className="text-base text-dark-500 dark:text-dark-400 leading-relaxed mb-8 max-w-[520px] animate-fade-up animation-delay-200">
-                5 years turning ideas into shipped products. I&apos;ve built and
-                launched 5–8 production applications across fintech, e-commerce,
-                SaaS, and more — from first commit to real users at scale. I
-                don&apos;t just write code.{" "}
+                5+ years of turning ideas into real, working products. I&apos;ve
+                built and launched 5 to 8 production apps across fintech,
+                e-commerce, and SaaS, taking each one from the first line of
+                code to real users at scale. Now I&apos;m bringing AI into the
+                mix, building smarter apps that solve real problems and grow
+                businesses. I don&apos;t just write code.{" "}
                 <strong className="text-dark-900 dark:text-white">
-                  I build businesses.
+                  I build products which grow and businesses that make money.
                 </strong>
               </p>
 
@@ -132,7 +134,7 @@ export function Hero() {
                     {/* Profile image */}
                     <Image
                       src={PROFILE_IMAGE}
-                      alt="Mussaib Rasheed — Full-Stack & Mobile Developer"
+                      alt="Mussaib Rasheed — Mobile App Developer"
                       fill
                       className="object-cover"
                       priority
@@ -163,7 +165,7 @@ export function Hero() {
                         Mussaib Rasheed
                       </p>
                       <p className="text-white/70 text-sm">
-                        Full-Stack &amp; Mobile Developer
+                        Mobile App Developer
                       </p>
                     </div>
                   </div>

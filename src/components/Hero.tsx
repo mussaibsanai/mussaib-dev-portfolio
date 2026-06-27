@@ -46,23 +46,28 @@ export function Hero() {
               </div>
 
               <h1 className="font-display text-5xl md:text-[56px] font-extrabold leading-[1.08] tracking-tight mb-5 animate-fade-up animation-delay-100">
-                I&apos;m{" "}
+                I&apos;m {" "}
                 <span className="gradient-text">Mussaib Rasheed</span>
               </h1>
 
               <p className="text-xl font-medium text-dark-500 dark:text-dark-400 mb-3 animate-fade-up animation-delay-200">
-                Mobile App Developer &amp; AI Product Builder
+                Full Stack Engineer | Mobile, Web &amp; AI Product Builder
               </p>
 
               <p className="text-base text-dark-500 dark:text-dark-400 leading-relaxed mb-8 max-w-[520px] animate-fade-up animation-delay-200">
-                5+ years of turning ideas into real, working products. I&apos;ve
-                built and launched 5 to 8 production apps across fintech,
-                e-commerce, and SaaS, taking each one from the first line of
-                code to real users at scale. Now I&apos;m bringing AI into the
-                mix, building smarter apps that solve real problems and grow
-                businesses. I don&apos;t just write code.{" "}
+                With over 5 years of experience, I build scalable web, mobile,
+                and backend applications using JavaScript and TypeScript. I've
+                successfully delivered and launched 5 to 8 production products
+                across fintech, e-commerce, SaaS, logistics, and real estate,
+                taking ideas from concept to deployment and supporting real
+                users at scale. My expertise includes React, Next.js, React
+                Native, Node.js, Supabase, and modern cloud technologies, with
+                additional experience in Flutter for cross-platform development.
+                Today, my focus is on building AI-driven products by integrating
+                Large Language Models (LLMs), AI agents, and intelligent
+                automation into real-world applications. {" "}
                 <strong className="text-dark-900 dark:text-white">
-                  I build products which grow and businesses that make money.
+                 I build products that solve real business problems, create exceptional user experiences, and help companies grow.
                 </strong>
               </p>
 
@@ -86,7 +91,10 @@ export function Hero() {
 
               {/* CTAs */}
               <div className="flex gap-3 flex-wrap animate-fade-up animation-delay-400">
-                <a href="#contact" className="btn-primary inline-flex items-center gap-2">
+                <a
+                  href="#contact"
+                  className="btn-primary inline-flex items-center gap-2"
+                >
                   Let&apos;s Work Together <ArrowRight size={16} />
                 </a>
                 <a href="#projects" className="btn-secondary inline-block">

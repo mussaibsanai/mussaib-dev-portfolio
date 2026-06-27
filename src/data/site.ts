@@ -269,7 +269,7 @@ export const services = [
     icon: "Globe",
     title: "Web Development",
     description: "Modern web apps with React & Next.js fast, SEO-friendly, and built to convert.",
-    techs: ["React.js", "Next.js", "TypeScript", "JavaScript"],
+    techs: ["React.js", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS"],
   },
  
   // {
@@ -288,7 +288,7 @@ export const services = [
     icon: "Rocket",
     title: "MVP Development",
     description: "From idea to launched product in weeks. I build MVPs that validate fast and scale when you're ready.",
-    techs: ["Full Stack", "End to End"],
+    techs: ["Full Stack", "End to End", "Supabase", "Stripe", "Payment Integration"],
   },
   // {
   //   icon: "Wrench",
@@ -299,28 +299,30 @@ export const services = [
 ];
 
 export const techStack = {
-  Mobile: [
-    { name: "React Native", level: 95 },
-    { name: "Flutter", level: 90 },
-    { name: "IOS", level: 90 },
-    { name: "Android", level: 50 }, 
-  ],
+ 
   Frontend: [
-    { name: "React.js", level: 95 },
+    { name: "TypeScript", level: 95 },
+    { name: "JavaScript", level: 95 },
+    { name: "React.js", level: 92 },
     { name: "Next.js", level: 92 },
-    { name: "TypeScript", level: 88 },
     { name: "Tailwind CSS", level: 90 },
   ],
+   Mobile: [
+    { name: "React Native", level: 95 },
+    { name: "Flutter", level: 70 },
+    { name: "IOS", level: 60 },
+    // { name: "Android", level: 50 }, 
+  ],
   
-  // Backend: [
-  //   { name: "Node.js", level: 93 },
-  //   { name: "Express.js", level: 92 },
-  //   { name: "Fastify", level: 88 },
-  // ],
-  // Database: [
-  //   { name: "PostgreSQL", level: 90 },
-  //   { name: "MongoDB", level: 88 },
-  // ],
+  Backend: [
+    { name: "Node.js", level: 93 },
+    { name: "Express.js", level: 92 },
+    { name: "Fastify", level: 88 },
+  ],
+  Database: [
+    { name: "PostgreSQL", level: 90 },
+    { name: "MongoDB", level: 88 },
+  ],
 };
 
 export const testimonials = [
